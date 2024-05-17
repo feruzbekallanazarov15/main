@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    background-color: indigo;
+    height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header-nav{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+.header-list{
+    display: flex;
+    column-gap: 35px;
+
+}
+.header-link{
+    color: white;
+    font-size: 20px;
+}
